@@ -3,7 +3,9 @@
 </script>
 
 <Nav />
-<slot />
+<div class="container mx-auto my-4">
+	<slot />
+</div>
 
 <style>
 	@tailwind base;
